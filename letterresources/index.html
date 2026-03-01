@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Letter Writing Tools & Resources</title>
     <meta name="description" content="Letter writing tools, congregation arrangements, and research resources." />
+
+    <!-- Lexend Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <style>
       :root {
         --bg: #0b1220;
@@ -14,80 +20,113 @@
         --link: #7cb7ff;
         --border: rgba(255, 255, 255, 0.12);
       }
+
       * { box-sizing: border-box; }
+
       body {
         margin: 0;
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        font-family: 'Lexend', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
         background: radial-gradient(1200px 800px at 20% 0%, #142048 0%, var(--bg) 55%);
         color: var(--text);
-        line-height: 1.45;
+        line-height: 1.5;
       }
+
       .wrap {
         max-width: 820px;
         margin: 0 auto;
         padding: 32px 18px 56px;
       }
+
       header {
-        margin-bottom: 18px;
+        margin-bottom: 22px;
       }
+
       h1 {
-        margin: 0 0 8px;
-        font-size: 28px;
+        margin: 0 0 10px;
+        font-size: 30px;
+        font-weight: 600;
         letter-spacing: 0.2px;
       }
+
       p.subtitle {
         margin: 0;
         color: var(--muted);
         font-size: 15px;
+        font-weight: 400;
       }
+
       .card {
         background: rgba(17, 26, 46, 0.92);
         border: 1px solid var(--border);
         border-radius: 14px;
-        padding: 18px;
-        margin-top: 16px;
+        padding: 20px;
+        margin-top: 18px;
         backdrop-filter: blur(6px);
       }
+
       h2 {
-        margin: 0 0 12px;
+        margin: 0 0 14px;
         font-size: 18px;
+        font-weight: 500;
       }
+
       ul {
         margin: 0;
         padding-left: 18px;
       }
-      li { margin: 10px 0; }
+
+      li {
+        margin: 10px 0;
+      }
+
       a {
         color: var(--link);
         text-decoration: none;
+        font-weight: 500;
       }
-      a:hover { text-decoration: underline; }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
       .notice {
-        margin: 14px 0 0;
-        padding: 12px 12px;
+        margin: 16px 0 0;
+        padding: 14px;
         border-left: 4px solid var(--link);
         background: rgba(124, 183, 255, 0.10);
         border-radius: 10px;
+        font-size: 14px;
       }
+
       .highlight {
         margin-top: 16px;
-        padding: 14px;
+        padding: 16px;
         border-radius: 12px;
         background: rgba(124, 183, 255, 0.12);
         border: 1px solid var(--border);
+        font-weight: 500;
       }
+
       footer {
         margin-top: 18px;
         color: var(--muted);
         font-size: 12px;
       }
+
+      @media (max-width: 600px) {
+        h1 { font-size: 24px; }
+        .wrap { padding: 24px 14px 48px; }
+      }
     </style>
   </head>
+
   <body>
     <div class="wrap">
       <header>
         <h1>Letter Writing Tools & Resources</h1>
-        <p class="subtitle">Congregation arrangements and helpful research links for letter writing.</p>
+        <p class="subtitle">
+          Congregation arrangements and helpful research links for letter writing.
+        </p>
       </header>
 
       <!-- Congregation Arrangement Section -->
@@ -112,9 +151,8 @@
 
         <div class="notice">
           <strong>Important</strong><br />
-          Please keep in mind that no public database is perfectly current. It is normal for names to differ
-          between sources. If you encounter conflicting information, use good judgment and proceed in a
-          reasonable manner.
+          No public database is perfectly current. It is normal for names to differ between sources.
+          If you encounter conflicting information, use good judgment and proceed in a reasonable manner.
         </div>
       </section>
 
